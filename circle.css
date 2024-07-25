@@ -1,0 +1,102 @@
+*{
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: #1e1e1e;
+}
+body{
+    max-width: 480px;
+    height: 570px;
+    background-color: #000235;
+    border-radius: 11px;
+}
+.wrapper{
+    max-width: 420px;
+    height: 500px;
+    background-color: #000235;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+}
+p{
+    background-color: transparent;
+    color: white;
+}
+.calc{
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 23px;
+}
+.interface{
+    width: 380px;
+    height: 400px;
+    background: linear-gradient(282deg, #86CECF -17.08%, #5151C6 103.86%);
+    border-radius: 12px;
+    border-style: groove;
+    margin-top: 40px;
+    box-shadow: inset;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+    font-size: larger;
+    padding-top: 10px;
+}
+u{
+    background-color: transparent;
+}
+.form-section{
+    height: 400px;
+    /* border: 1px solid red; */
+    max-width: 300px;
+    background-color: transparent;
+    margin-top: 20px;
+}
+form{
+    background-color: transparent;
+}
+label{
+    background-color: transparent;
+    
+}
+.rad{
+    font-size: 18px;
+    
+}
+input{
+    border-style: none;
+    background-color: #000235;
+    border-radius: 5px;
+    height:40px;
+    width: 300px;
+    color: white;
+    margin-top: 5px;
+    font-size: larger;
+    padding-left: 8px;
+}
+button{
+    width: 300px;
+    border-style: none;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: #000;
+    color: white;
+    font-size: larger;
+}
+ button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s;   
+}
+span{
+    background-color: transparent;
+    color:red;
+}
+.class{
+    font-size: large;
+}

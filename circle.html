@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circumference Calculator</title>
+    <link rel="stylesheet" href="circle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <p class="calc">CALCULATOR</p>
+      <div class="interface">
+        <p class="title">CIRCUMFERENCE:</p>
+        <div class="form-section">
+            <form action=""><br>
+                <label for="">
+                 <p  class="rad">Radius:
+                 <br>
+
+                    <input type="number" id="radius" title="r" >
+                </label> <br><br>
+                <u><p>Take 𝝅 = 3.142</p></u>
+                <button type="button" id="click" onclick="calculate()"   >Calculate</button><br><br>
+                    <p class="rad">Answer: <span id="total-circumference"> ____ </span> </p>
+            </form>
+        </div>
+      </div>
+    </div>
+    <script src="circumference.js"></script>
+    
+  </body>
+</html>
